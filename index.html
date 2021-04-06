@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TypemasterKeyboard</title>
+</head>
+<body>
+<!-- Header -->
+    <header class="header">
+        <div class="container">
+
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="images/logo.svg" alt="TM">
+                </div>
+
+                <button class="btn btn--gray open-button" onclick="openForm()">Pre-order now</button>
+                <div class="form-popup" id="myForm">
+                    <form action="#" class="form-container" method="post">
+                            <h3 class="form__title">Pre-order now</h3>
+
+                            <label for="name"><b>FULL NAME</b></label>
+                            <input type="text" placeholder="Your full name" name="name" id="name" required>
+
+                            <label for="tel"><b>PHONE</b></label>
+                            <input type="tel" placeholder="Your phone" name="tel" id="tel">
+
+                            <label for="email"><b>E-MAIL</b></label>
+                            <input type="email" placeholder="Your email" name="email" id="email" required>
+
+                            <button type="submit" class="btn btn--submit">Submit</button>
+                            <button type="button" class="btn btn--cancel" onclick="closeForm()">Close</button>
+                    </form>
+                </div>
+            </div>
+
+        </div><!--/.container-->
+    </header>
+
+<!--Main -->
+    <main>
+<!--Intro -->
+        <div class="intro">
+            <div class="container">
+
+                <div class="intro__inner">
+
+                    <div class="intro__content">
+                        <h1 class="intro__title">Typemaster Keyboard</h1>
+                        <div class="intro__text">
+                            <p>Improve your productivity and gaming without breaking
+                                the bank. Upgrade to a high quality mechanical typing experience.
+                            </p>
+                        </div>
+                        <div class="btn__wrapper">
+                            <button class="btn btn--orange open-button" onclick="openForm()">Pre-order now</button>
+                                <div class="form-popup" id="myForm">
+                                    <form action="#" class="form-container" method="post">
+                                        <h3 class="form__title">Pre-order now</h3>
+
+                                        <label for="name"><b>FULL NAME</b></label>
+                                        <input type="text" placeholder="Your full name" name="name" required>
+
+                                        <label for="tel"><b>PHONE</b></label>
+                                        <input type="tel" placeholder="Your phone" name="tel">
+
+                                        <label for="email"><b>E-MAIL</b></label>
+                                        <input type="email" placeholder="Your email" name="email" required>
+
+                                        <button type="submit" class="btn btn--submit">Submit</button>
+                                        <button type="button" class="btn btn--cancel" onclick="closeForm()">Close</button>
+                                    </form>
+                                </div>
+                            <span class="release">Release on 5/27</span>
+                        </div>
+                    </div>
+
+                    <div class="intro__photo">
+                        <img class="desktop" src="images/intro-desk.jpg" alt="keyboard">
+                        <img class="tablet" src="images/intro-tab.jpg" alt="keyboard">
+                        <img class="mobile" src="images/intro-mob.jpg" alt="keyboard">
+                    </div>
+
+                </div><!--/.intro__inner-->
+
+            </div><!--/.container-->
+        </div><!--/.intro-->
+
+<!--Section__description -->
+        <section class="section__description">
+            <div class="container">
+
+                <div class="description">
+
+                    <div class="description__photo">
+                        <img class="orange" src="images/orange-img.jpg" alt="orange-pic">
+                        <img class="table"src="images/main-img.jpg" alt="main-pic">
+                    </div>
+
+                    <div class="description__content">
+                        <h2 class="description__title">mechanical wireless Keyboard</h2>
+
+                        <div class="description__text">
+                            The Typemaster keyboard boasts
+                            top-notch build and practical design. It offers a wide variety of
+                            switches and keycaps, along with reliable wireless connectivity.
+                        </div>
+                    </div><!--/.description__content-->
+
+                </div><!--/.description-->
+
+            </div><!--/.container-->
+        </section>
+
+<!--Section__advantages -->
+        <section class="section__advantages">
+            <div class="container">
+
+                <div class="advantages">
+
+                    <div class="advantages__item">
+                        <img src="images/display.svg" alt="Highly compatible">
+
+                        <h3 class="advantages__title">HIGHLY<br>COMPATIBLE</h3>
+
+                        <div class="advantages__text">
+                            Easy to use and works well with all major
+                                computer brands, gaming consoles and mobile devices.
+                                Plug & play, no installation or driver needed.
+                        </div>
+                    </div>
+
+                    <div class="advantages__item">
+                        <img src="images/blutooth.svg" alt="WIRELESS WITH BLUETOOTH">
+
+                        <h3 class="advantages__title">WIRELESS<br> WITH BLUETOOTH</h3>
+
+                        <div class="advantages__text">
+                            Powerful 2.4G RF technology allows you to connect the
+                            cordless keyboard from up to 30ft away. Simply plug the
+                            unifying receiver into your computer.
+                        </div>
+                    </div>
+
+                    <div class="advantages__item">
+                        <img src="images/battery.svg" alt="HIH CAPACITY battery">
+
+                        <h3 class="advantages__title">HIGH CAPACITY BATTERY</h3>
+
+                        <div class="advantages__text">
+                            Equipped with a long-lasting built-in battery, you’ll
+                            never have to spend a dime on replaceable ones. 
+                            Enjoy 40 hours of usage time between charges.
+                        </div>
+                    </div>
+
+                    <div class="advantages__item">
+                        <img src="images/energy.svg" alt="RGB BACKLIT MODES">
+
+                        <h3 class="advantages__title">RGB BACKLIT<br> MODES</h3>
+
+                        <div class="advantages__text">
+                                Choose from 4 backlight brightness levels and adjustable breathing speed.
+                            Each key glows intensely in the dark and helps you
+                            type in low light conditions.
+                        </div>
+                    </div>
+
+                </div><!--/.advantages-->
+
+            </div><!--/.container-->
+        </section>
+    </main>
+
+<!--Footer -->
+    <footer class="footer">
+        <div class="container">
+            <span class="copyright">Typemaster 2021</span>
+            |<span class="reserved">All Rights Reserved</span>
+        </div><!--/.container-->
+    </footer>
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+
+
+        const invalidClassName = 'invalid';
+        const inputs = document.querySelectorAll('input');
+
+        inputs.forEach(function (input) {
+
+            input.addEventListener('invalid', function (){
+                input.classList.add(invalidClassName)
+            })
+
+            input.addEventListener('input', function () {
+                if (input.validity.valid) {
+                    input.classList.remove(invalidClassName)
+                }
+            })
+         })
+
+    </script>
+</body>
+</html>
